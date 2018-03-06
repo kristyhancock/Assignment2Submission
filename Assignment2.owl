@@ -1,0 +1,1972 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kristyh/ontologies/2018/2/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/kristyh/ontologies/2018/2/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontologies="http://www.pizza.owl/ontologies/">
+    <owl:Ontology rdf:about="http://www.thesoundofmusic.com/ontologies/thesoundofmusic.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000161 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000161">
+        <rdfs:label xml:lang="en">owl:definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000148 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000148">
+        <owl:inverseOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Played</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000149 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000149">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">isPlayedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000154 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000154">
+        <owl:inverseOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+        <rdfs:label xml:lang="en">hasChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000155 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000155">
+        <rdfs:label xml:lang="en">isChildOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000162 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000162">
+        <rdfs:label xml:lang="en">isPerformedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000163 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000163">
+        <rdfs:label xml:lang="en">isRomanticallyInvolvedWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000168 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000168">
+        <rdfs:label xml:lang="en">isSiblingOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000069 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000069">
+        <ontologies:PIZZA_0000161>A film musical set in 1930&apos;s Austria. A young woman named Maria is failing miserably in her attempts to become a nun, and when the Navy captain Georg Von Trapp writes to Nonnberg Abbey asking for a governess that can handle his seven mischievous children, Maria is given the job.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">TheSoundOfMusic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000070 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <ontologies:PIZZA_0000161>The film characters in The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000071 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <ontologies:PIZZA_0000161>The cast members of The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">CastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000072 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000070"/>
+        <ontologies:PIZZA_0000161>The female film characters in The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">FemaleCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000074 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000070"/>
+        <ontologies:PIZZA_0000161>The male film characters in The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MaleCharacters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000075 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000071"/>
+        <ontologies:PIZZA_0000161>The female cast members of The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">FemaleCastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000076 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000071"/>
+        <ontologies:PIZZA_0000161>The male cast members of The Sound of Music.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MaleCastMembers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000077 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A young woman who leaves Nonnberg Abbey to become the governess of seven children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">Maria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000079 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000163"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A wealthy and cultivated socialite with whom Captain Von Trapp is romantically involved.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">BaronessSchraeder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000080 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000163"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A retired Naval officer, widower, and the father of seven children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">CaptainVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000081 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A close friend of the Von Trapp family.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MaxDetweiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000082 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The reverend mother at Nonnberg Abbey.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MotherAbbess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000083 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000163"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">LieslVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000084 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The third eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">LouisaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000085 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The second eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">FriedrichVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000086 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The fourth eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">KurtVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000087 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The fifth youngest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">BrigittaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000088 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The sixth eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MartaVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000089 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The seventh eldest of the Von Trapp children.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">GretlVonTrapp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000090 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A nun at Nonnberg Abbey.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">SisterMargaretta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000091 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A nun at Nonnberg Abbey.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">SisterBerthe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000092 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000092">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A Nazi official.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">HerrZeller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000093 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000163"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A telegram delivery boy who is romantically involved with Liesl Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">Rolfe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000094 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The Von Trapp housekeeper.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">FrauSchmidt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000095 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The Von Trapp butler.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">Franz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000096 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000096">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A nun at Nonnberg Abbey.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">SisterSophia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000097 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000097">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A nun at Nonnberg Abbey.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">SisterBernice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000098 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>An acquaintance of Captain Von Trapp’s.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">BaronessEbberfield</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000099 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000099">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1935 – present) who played Maria.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">JulieAndrews</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000100 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1929 – present) who played Captain Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">ChristopherPlummer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000101 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000101">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1922 – 2013) who played Baroness Schraeder.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">EleanorParker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000102 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1905 – 1985) who played Max Detweiler.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">RichardHaydn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000103 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1892 – 1978) who played Mother Abbess.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">PeggyWood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000104 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1942 – 2016) who played Liesl Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">CharmianCarr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000105 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1949 – 2017) who played Louisa Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">HeatherMenzies-Urich</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000106 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1950 – present) who played Friedrich Von Trapp</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">NicholasHammond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000107 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000107">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1950 – present) who played Kurt Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">DuaneChase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000108 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1952 – present) who played Brigitta Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">AngelaCartwright</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000109 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1956 – present) who played Marta Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">DebbieTurner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000110 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1958 – present) who played Gretl Von Trapp.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">KymKarath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000111 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1913 – 2004) who played Sister Margaretta.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">AnnaLee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000112 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1920 – 2001) who played Sister Berthe.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">PortiaNelson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000113 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1915 – 1989) who played Herr Zeller.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">BenWright</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000114 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1943 – present) who played Rolfe.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">DanielTruhitte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000115 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1898 – 1989) who played Frau Schmidt.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">NormaVarden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000116 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actor (1919 – 1977) who played Franz.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">GilchristStuart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000117 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1930 – 2016) who played Sister Sophia.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">MarniNixon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000118 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1937 – 1995) who played Sister Bernice.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">EvadneBaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000119 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000075"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>The actress (1896 – 1968) who played Baroness Ebberfield.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">DorisLloyd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000120 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <ontologies:PIZZA_0000161>The complete song list from The Sound of Music soundtrack.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">SoundtrackSongList</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000121 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">1_Prelude:TheSoundOfMusic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000122 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Anna Lee, Portia Nelson, Marni Nixon and Evadne Baker.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">2_Overture:Preludium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000123 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Anna Lee, Portia Nelson, Marni Nixon and Evadne Baker.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">3_MorningHymn:Alleluia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000124 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Evadne Baker, Anna Lee, Portia Nelson and Marni Nixon.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">4_Maria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000125 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">5_IHaveConfidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000126 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Charmian Carr and Daniel Truhitte.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">6_SixteenGoingOnSeventeen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000127 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000127">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">7_MyFavouriteThings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000128 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">8_DoReMi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000129 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000129">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Kym Karath, Debbie Turner and Christopher Plummer.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">9_TheSoundOfMusic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000130 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">10_TheLonelyGoatherd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000131 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000131">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">11_SoLong,Farewell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000132 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000132">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Peggy Wood.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">12_ClimbEv&apos;ryMountain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000133 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews &amp; Christopher Plummer.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">13_SomethingGood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000134 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Evadne Baker, Anna Lee, Portia Nelson and Marni Nixon.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">14_ProcessionalAndMaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000135 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000135">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews, Christopher Plummer, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner and Kym Karath.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">15_EdelweissReprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000136 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000136">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Chorus and Orchestra.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">16_ClimbEv&apos;ryMountainReprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000137 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">17_PreludeAndTheSoundOfMusic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000138 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">18_IHaveConfidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000139 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Charmian Carr.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">19_SixteenGoingOnSeventeenReprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000140 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000140">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Chorus.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">20_MyFavouriteThings/SalzburgMontage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000141 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000141">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Christopher Plummer, Julie Andrews, Charmian Carr, Heather Menzies, Nicholas Hammond, Duane Chase, Angela Cartwright, Debbie Turner, Kym Karath and Chorus.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">21_EdelweissReprise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000142 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000142">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Orchestra.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">22_TheGrandWaltz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000143 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000143">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Orchestra.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">23_Laendler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000144 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000144">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Orchestra.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">24_ProcessionalWaltz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000145 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Julie Andrews and Christopher Plummer.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">25_SomethingGood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000146 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Orchestra.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">26_TheChase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000147 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+        <ontologies:PIZZA_0000161>A song from The Sound of Music soundtrack. Performed by Chorus.</ontologies:PIZZA_0000161>
+        <rdfs:label xml:lang="en">27_Escape/ClimbEv&apos;ryMountainReprise/Finale</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
